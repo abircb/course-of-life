@@ -1,0 +1,113 @@
+% !TEX root = ./main.tex
+\documentclass{resume}
+\usepackage[utf8]{inputenc}
+
+\author{abir}
+\usepackage[left=0.37in,top=0in,right=0.37in,bottom=0.2in]{geometry} % Document margins
+\usepackage{hyperref}
+
+% Name and Web Presence
+\address{\textbf{\Large{Abir Bhushan}}}
+\address{
+\href{https://www.linkedin.com/in/abirbhushan/}{\scriptsize \underline{linkedin.com/in/abirbhushan/}} \\ \href{https://abirbhushan.com/}{\scriptsize \underline{abirbhushan.com/}} \\
+\href{mailto:bhushan.abir@gmail.com}{\scriptsize\href{mailto:bhushan.abir@gmail.com}\scriptsize\underline{bhushan.abir@gmail.com}} \\ \href{https://github.com/abircb/}{   \scriptsize\underline{github.com/abircb/}}
+}
+\begin{document}
+
+% Education
+\begin{rSection}{\small{Education}}
+{\bf \footnotesize University College London}
+\hfill {\footnotesize \textit{2018 - 2022 (Expected)}} \newline
+\footnotesize{• M.Eng Computer Science (with Intelligent Systems): First Class in first year with 84\% in Algorithms and Data Structures}\newline
+\footnotesize{• Programming Mentor for first-year students (graduating in 2022/23) - helping them with their C, Java, Haskell, and Python modules}
+
+
+{\bf \footnotesize The British Embassy School, New Delhi}
+\hfill {\footnotesize \textit{2016 - 2018}} \newline
+\footnotesize{• IB: 41 points (256 UCAS Tarrif) with 7 in Mathematics and Computer Science (at higher-level) and Economics (at standard-level)}\newline
+\footnotesize{• IGCSE: 8 subjects with all A*/As including Mathematics (95\%) and Economics (92\%)}\newline
+\footnotesize{\textit{Awarded the Governor's Award for Academic Excellence by the Board of Governors at The British Embassy in New Delhi}}
+\end{rSection}
+
+% Experience
+\begin{rSection}{\small{Relevant Experience}}
+
+{\bf \footnotesize Facebook}
+\hfill {\footnotesize London, United Kingdom} \newline
+{\footnotesize\textit{{Hack-a-Project Intern}}} \hfill {\footnotesize \textit{Feb. 2020 - Mar. 2020}} \newline
+\indent \indent \indent \footnotesize{ • \textbf{Team Shadowing:} Explored Facebook London and learnt how its product teams work together to provide services for its users.} \newline
+\indent \indent \indent \footnotesize{ • \textbf{React:} Prototyped a React.js web application with Facebook Engineers - designed to bring University students and societies together.}
+
+{\bf \footnotesize Infibeam Avenues} \hfill {\footnotesize New Delhi, India} \newline
+{\footnotesize\textit{{Technology Summer Analyst}}} \hfill {\footnotesize \textit{Jul. 2019 - Sept. 2019}} \newline
+\indent \indent \indent \footnotesize{ • \textbf{Final Project:} Managed the upgrade and deployment of a Node.js web application to automate the process of converting incoming} \newline
+\indent \indent \indent \footnotesize{  catalogue data (in YAML) to an SQL table. The result was a robust application that parsed, recorded and verified serialised data of} \newline
+\indent \indent \indent \footnotesize{  over 5,000 unique products each day; helping the Markets team develop intuitive and relevant analytics to optimise their decisions.} \newline
+\indent \indent \indent \footnotesize{ • \textbf{Price prediction models:} Used Python libraries such as sklearn, pandas, numpy to apply the Random Forest Regressor and} \newline
+\indent \indent \indent \footnotesize{ create price prediction models for three distinct categories of their e-commerce catalogue. Implemented techniques such as cross}\newline
+\indent \indent \indent \footnotesize{  validation to ensure overfitting did not occur and used Grid Search for Hyperparameter tuning, achieving 96\% average model accuracy.}
+
+{\bf \footnotesize Procter \& Gamble (P\&G)}
+\hfill {\footnotesize New Delhi, India} \newline
+{\footnotesize\textit{{Software Engineering Intern}}} \hfill {\footnotesize \textit{Jul. 2018 - Sept. 2018}} \newline
+\indent \indent \indent \footnotesize{ • \textbf{Work Shadowing:} Shadowed engineers to learn about software development at P\&G and gained an in-depth understanding about} \newline
+\indent \indent \indent \footnotesize{  different processes, requirements, and workflow at the firm.} \newline
+\indent \indent \indent \footnotesize{ • \textbf{Analytic application:} Worked in a team of 4 to build a fully responsive, web-based analytic application using Dash. Presented } \newline
+\indent \indent \indent \footnotesize{  the project to 10 members of the Technology team, 2 of which were senior members. Demonstrated use of SDLC and DevOps principles.}
+
+\end{rSection}
+
+% Projects
+\begin{rSection}{\small{Projects}}
+
+{\bf \footnotesize The Random DevTools Project (Open-Source)} \hfill {\footnotesize{\textit{Jun. 2019 - Present}}}\newline
+\footnotesize{An ambitious project that I launched in the summer of 2019 to build developer tools for modern application development. As part of the project, I have developed 2 Node.js packages and 3 Google Chrome extensions. Some notable ones are:}\newline
+\footnotesize{ • \textbf{\href{https://www.npmjs.com/package/quickbuild}{\underline{Quickbuild:}}} A Node.js (NPM) package that generates an application skeleton for a large variety of project types, like Express.js server, React-Redux, Electron etc., and has over \textbf{2,500 downloads}.}\newline
+\footnotesize{ • \textbf{\href{https://chrome.google.com/webstore/detail/search-github/fbdfmneommmclhkndkhdagkcebgekkna}{\underline{Search GitHub:}}} An extension to construct powerful queries to search GitHub repositories, users, etc. using 24 different parameters.\newline}
+\footnotesize{ • \textbf{\href{https://npmjs.com/package/acquire-module}{\underline{Acquire:}}} A variant of Node's \textit{require} function that allows the developer to search for a module more effectively. 400+ downloads p/m.}
+
+{\bf \footnotesize Student Council voting system} \hfill {\footnotesize{\textit{Sept. 2017 - Nov. 2017}}}\newline
+\footnotesize{I used Express.js and MongoDB to create a web application that allowed students in my high-school to sign-in and vote in the \newline 2017-18 student council elections. Over a thousand votes were cast, and my system successfully met the high-concurrency performance requirements that previous systems didn't. }
+
+{\bf \footnotesize An Invoicing desktop application} \hfill {\footnotesize{\textit{Sept. 2017 - Feb. 2018}}}\newline
+\footnotesize{Improvised the functionality of an invoicing system at my high school’s uniform shop in a team of six student software engineers. The application was created using Java (FX) and SQL. Some of its features included generating invoices, recording inventory data, and providing added support for sales analysis by creating reports. The final output was a more robust and substantially faster system that provided an exponentially larger number of functions compared to its predecessor.}
+
+\end{rSection}
+
+% Activities
+\begin{rSection}{\small{Activities}}
+%{\bf \footnotesize Student Ambassador, UCL Accommodation}
+%\hfill {\footnotesize \textit{Sept. 2019 - Present}}
+
+{\bf \footnotesize Vice-President (Internal Affairs), UCL Artificial Intelligence Society}
+\hfill {\footnotesize \textit{Sept. 2019 - Present}} \newline
+\footnotesize{Leading a team of 15 to ensure smooth operations of all our events and internal affairs. Elected again for the 2020/21 academic year.}
+
+{\bf \footnotesize President, Ramsay Hall and Ian Baker House}
+\hfill {\footnotesize \textit{Oct. 2018 - Jun. 2019}} \newline
+\footnotesize{Elected President of the largest student hall at UCL; represented the interests of 500+ students to the union and allocated budgets for community events. Also led and organised the biggest student hall ball at UCL with over 150 attendees.}
+
+%\footnotesize{Was responsible for giving talks to first-year students about the myths of AI: informing them about its true applications and benefits to society. Also ran a series of introductory tutorials on Python and its use in Machine Learning and Data Science}
+
+%{\bf \footnotesize Projects officer, UCL Technology Society}/%\hfill {\footnotesize \textit{Oct. 2018 - Mar. 2019}} \newline
+%\footnotesize{Worked in a team of 4 to run projects and tutorials on Web Development, Cybersecurity, and Game Development}
+\end{rSection}
+
+% Skills
+\begin{rSection}{\small{Skills and Interests}}
+{\footnotesize{\bf Progamming Languages:} \footnotesize{Python 3, Java, JavaScript, Haskell}}
+\hfill \footnotesize{-- with 10,000+ lines of code or actual project experience}\newline
+{\footnotesize{\bf Technologies:} \footnotesize{SQL, HTML5, CSS3, React, Node.js, MongoDB, Git, Docker, JIRA, Testing Frameworks (PyUnit, Mocha, and JUnit)}}\newline
+{\footnotesize{\bf Interests:} \footnotesize{Disciplined BJJ practitioner, Love Directing Classic Plays (directed Mulan and Hamlet in my high-school) and Blogging}}
+\newline
+\hphantom{}
+\hfill\tiny{Powered by \LaTeX}
+
+\end{rSection}
+
+\end{document}
+
+% Consistent feedback from multiple sources:
+% Paragraph at the beginning - hobbies, interests, etc. (Maybe - depends on the employer)
+% Interests
+% Languages (Arabic, Hindi, Urdu, English)
